@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Пробная страница</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="slick-1.8.0/slick/slick.css"/>
+	
+	<link rel="stylesheet" type="text/css" href="slick-1.8.0/slick/slick-theme.css"/>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick-1.8.0/slick/slick.min.js"></script>
+
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+	
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    
+
+	
+</head>
+<body>
+	<header class="header">
+		<div class="feedback">
+			<div class="container">
+				<p class="feedback-phone"><a href="tel:+1234567890" class="feedback-phone-items">+ 7 (777) 007 09 71</a><a href="tel:+1234567890" class="feedback-phone-items">+ 7 (727) 354 43 77</a></p>
+			</div>
+		</div>
+		<div class="container"> 
+			<div class="row">
+				<div class="col-md-2">
+					<div class="logo">
+						<img src="image/badges/satti.png">
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="menu" id="menu">
+						<a href="#about-us" class="menu-title">О нас</a>
+						<a href="#product-advertising" class="menu-title">Услуги</a>
+						<a href="#Our-works" class="menu-title">Наши работы</a>
+						<a href="#footer" class="menu-title">Контакты</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="feedback-call">
+							<button type="button" class="feedback-link-call" data-toggle="modal" data-target="#myModal">Заказать звонок</button>
+					</div>
+					<div class="modal fade" id="myModal" role="dialog">
+					    <div class="modal-dialog modal-sm">
+					      <div class="modal-content">
+					        <div class="modal-header-color">
+					         <div class="modal-header">
+					            <button type="button" class="close" data-dismiss="modal">&times;</button>
+					            <h4 class="modal-title">Закаказть звонок</h4>
+					         </div>
+					        </div>
+					        <form action="">
+					          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="Ваше имя"></p>
+					          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="Ваша фамилия"></p>
+					          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="e-mail"></p>
+					          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="..."></p>
+					          <p class="modal-text"><input type="submit" class="modal-button" value="Отправить"></p>
+					        </form>
+					        <div class="modal-footer" ></div>
+					      </div>
+					    </div>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="main-slide">
+		<div class="main-slider">
+			<div class="main-slider-content">
+				<p class="title">
+					Сәтті advertising
+				</p>
+				<p class="main-slider-text">
+					Рекламное агентство полного цикла, специализирующееся на <br> предоставлении соответствующих услуг в Казахстане
+				</p>
+			</div>
+		</div>
+		<div class="main-sliderr">
+			<div class="main-slider-content">
+				<p class="title">
+					Сәтті advertising
+				</p>
+				<p class="main-slider-text">
+					Рекламное агентство полного цикла, специализирующееся на <br> предоставлении соответствующих услуг в Казахстане
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="about-us" id="about-us">
+		<div class="container">	
+			<div class="title">
+				О нас
+			</div>
+			<div class="row">
+					<div class="col-md-3">
+						<div class="about-us-column">
+							<a href="#" onclick="event.preventDefault()" class="about_us" data-slick="0"><img src="image/badges/slider2-1.png"></a>
+							<p class="about-us-text">
+								Опыт работы более 8 лет
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="about-us-column">
+							<a href="#" onclick="event.preventDefault()" class="about_us" data-slick="1"><img src="image/badges/slider2-2.png"></a>
+							<p class="about-us-text">Работаем по всему Казахстану</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="about-us-column">
+							<a href="#" onclick="event.preventDefault()" class="about_us" data-slick="2"><img src="image/badges/slider2-3.png"></a>
+							<p class="about-us-text">
+								Комплексный подход
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="about-us-column">
+							<a href="#" onclick="event.preventDefault()" class="about_us" data-slick="3"><img src="image/badges/slider2-4.png"></a>
+							<p class="about-us-text">
+								Конструктивный диалог
+							</p>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="single-slide">
+			 	<div>
+					<div class="row">
+						<div class="col-md-3">
+							<p class="about-us-pointer">
+								<img src="image/badges/polygon.png">
+							</p>
+						</div>	
+					</div>
+				</div>
+				<div>
+					<div class="row">
+						<div class="col-md-3 col-md-offset-3">
+							<p class="about-us-pointer">
+								<img src="image/badges/polygon.png">
+							</p>
+						</div>	
+					</div>
+				</div>
+				<div>
+					<div class="row">
+						<div class="col-md-3 col-md-offset-6">
+							<p class="about-us-pointer">
+								<img src="image/badges/polygon.png">
+							</p>
+						</div>	
+					</div>
+				</div>
+				<div>
+					<div class="row">
+						<div class="col-md-3 col-md-offset-9">
+							<p class="about-us-pointer">
+								<img src="image/badges/polygon.png">
+							</p>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-us-slider">
+			<div class="about-us-slider-fon">
+				<div class="container">
+					<div class="single-slide">
+					 	<div>
+							<div class="row">
+								<div class="col-md-12">
+									<p class="about-us-slider-text">	Задача организации, в особенности же консультация с широким активом требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. Товарищи! укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития.
+									</p> 
+								</div>		
+							</div>
+						</div>
+						<div>
+							<div class="row">
+								<div class="col-md-12">
+									<p class="about-us-slider-text">	1 Задача организации, в особенности же консультация с широким активом требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. Товарищи! укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития.
+									</p> 
+								</div>		
+							</div>
+				        </div>
+					    <div>
+						  	<div class="row">
+								<div class="col-md-12">
+									<p class="about-us-slider-text">	2 Задача организации, в особенности же консультация с широким активом требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. Товарищи! укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития.
+									</p> 
+								</div>		
+							</div>
+				        </div>
+				        <div>
+						  	<div class="row">
+								<div class="col-md-12">
+									<p class="about-us-slider-text">	3 Задача организации, в особенности же консультация с широким активом требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. Товарищи! укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития.
+									</p> 
+								</div>		
+							</div>
+				        </div>
+					</div>	
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="product-advertising" id="product-advertising">
+			<p class="title">
+				Наружная реклама в любых городах РК
+			</p>
+
+			<div class="product-advertising">
+				<div class="container">
+					<div class="product-advertising">
+						<div class="row" >
+							<div class="col-md-4">
+								<div class="product-colum">
+									
+										<a class="advertising-link" href="url" target="_blank"> <img src="image/foto/baner1.png" class="product-column-img"></a>
+										<div class="product_advertising-shadow">
+											<p class="product_advertising-text">Зкранах и панелях</p>
+										</div>
+									
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="product-colum">
+										<a class="advertising-link" href="url" target="_blank"> <img src="image/foto/baner1.png" class="product-column-img"></a>
+										<div class="product_advertising-shadow">
+											<p class="product_advertising-text">Остановки и сити-форматы</p>
+										</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="product-colum">
+										<a class="advertising-link" href="url" target="_blank"> <img src="image/foto/baner1.png" class="product-column-img"></a>
+										<div class="product_advertising-shadow">
+											<p class="product_advertising-text">Реклама в торговых центрах</p>
+										</div>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-advertising">
+						<div class="row" >
+							<div class="col-md-4">
+								<div class="product-colum">
+									 
+										<a class="advertising-link" href="url" target="_blank"> <img src="image/foto/baner1.png" class="product-column-img"></a>
+										<div class="product_advertising-shadow">
+											<p class="product_advertising-text">Зкранах и панелях</p>
+										</div>
+									
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="product-colum">
+										<a class="advertising-link" href="url" target="_blank"> <img src="image/foto/baner1.png" class="product-column-img"></a>
+										<div class="product_advertising-shadow">
+											<p class="product_advertising-text">Остановки и сити-форматы</p>
+										</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="product-colum">
+										<a class="advertising-link" href="url" target="_blank"> <img src="image/foto/baner1.png" class="product-column-img"></a>
+										<div class="product_advertising-shadow">
+											<p class="product_advertising-text">Реклама в торговых центрах</p>
+										</div>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	</div>
+	<div class="lease-slider">
+		<div class="container">
+			<div class="lease-slider-text">
+				<p class="title">Отдел маркетинга в аренду</p>
+				<div class="row">
+					<div class="col-md-6">
+						<ol class="lease-marker">
+							<li class="lease-marker-items">Сегментирование целевой аудитории</li>
+							<li class="lease-marker-items">Настройки медициной и контекстной рекламы</li>
+							<li class="lease-marker-items">Social marketing (ведение акканута компании в соц. сетях)</li>
+							<li class="lease-marker-items">Планирование акций и создание инфо поводов</li>
+							<li class="lease-marker-items">Администрирование сайта</li>
+							<li class="lease-marker-items">Дизайн и работа с текстами</li>
+							<li class="lease-marker-items">Аналитика и рекомендации</li>
+						</ol>
+					</div>
+					<div class="col-md-6">
+						<div class="lease-feedback">
+							<p class="lease-feedback-text">
+								В стоимость входит персональный менеджер с<br> обязательным еженедельным присутствием в Вашем офисе<br> с идеями, дизайн-проектами, планами и отчетами по<br> текущей деятельности
+							</p>
+							<p class="lease-feedback-price">
+								90 000 тг
+							</p>	
+							<p class="feedback-call-lease">
+								<button type="button" class="feedback-link-call" data-toggle="modal" data-target="#myModal">Заказать звонок</button>
+							</p>		
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="publicity">
+		<div class="container">
+			<p class="title">
+				Производство наружной рекламы любой сложности
+			</p>
+			<p class="publicity-text">
+				Не следует, однако забывать, что сложившаяся структура организации влечет за собой процесс внедрения и модернизации форм развития. Разнообразный и богатый опыт укрепление и развитие структуры представляет собой интересный эксперимент проверки систем массового участия. Товарищи!
+			</p>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-2">
+					<p class="caption-publicity">КАЧЕСТВА</p>
+					<p class="caption-img">
+						<img src="image/badges/5 copy.png">
+					</p>
+				</div>
+				<div class="col-md-2 col-md-offset-1">
+					<p class="caption-publicity">ЛУЧШИЕ ЦЕНЫ</p>
+					<p class="caption-img">
+						<img src="image/badges/5.png">
+					</p>
+				</div>
+				<div class="col-md-2 col-md-offset-1">
+					<p class="caption-publicity">ОФОРМЛЕНИЕ</p>
+					<p class="caption-img">
+						<img src="image/badges/Group.png">
+					</p>
+			</div>
+		</div>
+	</div>
+	<div class="advertising-radio-television">
+		<div class="container">
+						<div class="advertising-radio-tv">
+							<p class="title">
+								Реклама на радио и на телевидении
+							</p>
+							<p class="publicity-text">
+								Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что реализация намеченных плановых заданий требуют от нас анализа форм развития. Повседневная практика показывает.
+							</p>
+							<div class="row">
+								<div class="col-md-5">
+									<p class="radio-title">
+										<button type="button" class="feedback-link-call" data-toggle="modal" data-target="#myModalRadio">Радио</button>
+				
+										<div class="modal fade" id="myModalRadio" role="dialog">
+										    <div class="modal-dialog modal-sm">
+										      <div class="modal-content">
+										        <div class="modal-header-color">
+										         <div class="modal-header">
+										            <button type="button" class="close" data-dismiss="modal">&times;</button>
+										            <h4 class="modal-title">Закаказть звонок для радио</h4>
+										         </div>
+										        </div>
+										        <form action="">
+										          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="Ваше имя"></p>
+										          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="Ваша фамилия"></p>
+										          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="e-mail"></p>
+										          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="..."></p>
+										          <p class="modal-text"><input type="submit" class="modal-button" value="Отправить"></p>
+										        </form>
+										        <div class="modal-footer" ></div>
+										      </div>
+										    </div>
+										</div>
+									</p>
+								</div>
+								<div class="col-md-2"></div>
+								<div class="col-md-5">
+									<p class="tv-title">
+										<button type="button" class="feedback-link-call" data-toggle="modal" data-target="#myModalTV">Телевидение</button>
+				
+										<div class="modal fade" id="myModalTV" role="dialog">
+										    <div class="modal-dialog modal-sm">
+										      <div class="modal-content">
+										        <div class="modal-header-color">
+										         <div class="modal-header">
+										            <button type="button" class="close" data-dismiss="modal">&times;</button>
+										            <h4 class="modal-title">Закаказть звонок для TV</h4>
+										         </div>
+										        </div>
+										        <form action="">
+										          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="Ваше имя"></p>
+										          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="Ваша фамилия"></p>
+										          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="e-mail"></p>
+										          <p class="modal-text"><input name="user" class="modal-margins" required placeholder="..."></p>
+										          <p class="modal-text"><input type="submit" class="modal-button" value="Отправить"></p>
+										        </form>
+										        <div class="modal-footer" ></div>
+										      </div>
+										    </div>
+										</div>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="Advertising-radio-tv-slider">
+							<div><a href="url" target="_blank"><img src="image/foto/slider1.png" class="radio-tv-slider-img"></a></div>
+							<div><a href="url" target="_blank"><img src="image/foto/slider2.png" class="radio-tv-slider-img"></a></div>
+							<div><a href="url" target="_blank"><img src="imgimage/foto/slider3.png" class="radio-tv-slider-img"></a></div>
+							<div><a href="url" target="_blank"><img src="image/foto/slider4.png" class="radio-tv-slider-img"></a></div>
+							<div><a href="url" target="_blank"><img src="image/foto/slider5.png" class="radio-tv-slider-img"></a></div>
+							<div><a href="url" target="_blank"><img src="image/foto/slider6.png" class="radio-tv-slider-img"></a></div>
+							<div><a href="url" target="_blank"><img src="image/foto/slider7.png" class="radio-tv-slider-img"></a></div>
+							<div><a href="url" target="_blank"><img src="image/foto/slider1.png" class="radio-tv-slider-img"></a></div>
+							<div><a href="url" target="_blank"><img src="image/foto/slider2.png" class="radio-tv-slider-img"></a></div>	
+						</div>
+		</div>
+		
+	</div>
+	<div class="advertising-social-networks">
+		<div class="container">
+							<div class="advertising-social">
+								<p class="title">
+									Реклама в социальных сетях
+								</p>
+								<p class="publicity-text">
+									Таким образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Повседневная практика показывает, что реализация намеченных плановых заданий требуют от нас анализа. 
+								</p>
+							</div>
+							<div class="col-md-4">
+								<p class="advertising-social-caption">ПРОДВИЖЕНИЕ В СОЦ. СЕТЯХ</p>
+								<p class="advertising-social-caption-img">
+									<img src="image/badges/baner2-1.png">
+								</p>
+							</div>
+							<div class="col-md-4">
+								<p class="advertising-social-caption">ПРИВЛЕЧЕНИЕ НУЖНЫХ КЛИЕНТОВ</p>
+								<p class="advertising-social-caption-img">
+									<img src="image/badges/baner2-2.png">
+								</p>
+							</div>
+							<div class="col-md-4">
+								<p class="advertising-social-caption">ОТЧЕТНОСТЬ И АНАЛИТИКА</p>
+								<p class="advertising-social-caption-img">
+									<img src="image/badges/baner2-3.png">
+								</p>
+							</div>
+		</div>
+	</div>
+	<div class="documents">
+		<div class="container">
+						<p class="title">
+							Оформление разрешительных документов
+						</p>
+						<p class="publicity-text">
+							Не следует, однако забывать, что сложившаяся структура организации влечет за собой процесс внедрения и модернизации форм развития. Разнообразный и богатый опыт укрепление и развитие структуры представляет собой интересный эксперимент проверки систем массового участия. Товарищи! 
+						</p>
+						<div class="col-md-4 col-md-offset-1">
+								<p class="documents-caption">КОРРЕКТНОЕ ОФОРМЛЕНИЕ</p>
+								<p class="documents-caption-img">
+									<img src="image/badges/baner3-1.png">
+								</p>
+						</div>
+						<div class="col-md-2">
+								<p class="documents-caption">АНАЛИЗ</p>
+								<p class="documents-caption-img">
+									<img src="image/badges/baner3-2.png">
+								</p>
+						</div>
+						<div class="col-md-4">
+								<p class="documents-caption">ВЫПОЛНЕНИЕ В СРОК</p>
+								<p class="documents-caption-img">
+									<img src="image/badges/baner3-3.png">
+								</p>
+						</div>
+		</div>
+	</div>
+	<div class="our-goal">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-6">
+				<p class="our-goal-title">Наша цель</p>
+				<p class="our-goal-text">
+					Задача организации, в особенности же консультация с широким активом требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. Товарищи! укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития. Не следует, однако забывать, что укрепление и развитие структуры позволяет выполнять важные задания по разработке новых предложений. Задача организации, в особенности же консультация с широким активом требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. Товарищи! укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития. 
+				</p>
+			</div>
+			<div class="col-md-6">
+				<p class="our-goal-img">
+					<img src="image/badges/baner4-1.png">
+				</p>
+			</div>
+			</div>		
+		</div>
+	</div>
+	<div class="our-works" id="our-works">
+			<div class="container">
+				<p class="title">Наши работы</p>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="our-works-img">
+							<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+					</div>
+					<div class="col-md-3">
+						<div class="our-works-img">
+							<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+					</div>
+					<div class="col-md-3">
+						<div class="our-works-img">
+							<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+					</div>
+					<div class="col-md-3">
+						<div class="our-works-img">
+							<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="our-works-img">
+						<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+						<div class="modal fade" id="myModalimg" role="dialog">
+						    <div class="modal-dialog modal-sm">
+							   <div class="modal-content">
+								    <div class="modal-header-color">
+									   	<div class="modal-header">
+										    <button type="button" class="close" data-dismiss="modal">&times;</button>
+								     	</div>
+								    </div>
+							        <form action="">
+										<img src="img/Our-works.png" style="width: 298px; height: 247px; margin: 0px; ">
+								    </form>
+								    <div class="modal-footer" ></div>
+								  </div>
+						    </div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="our-works-img">
+							<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+					</div>
+					<div class="col-md-3">
+						<div class="our-works-img">
+							<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+					</div>
+					<div class="col-md-3">
+						<div class="our-works-img">
+							<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="our-works-img">
+							<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign-last">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+					</div>
+					<div class="col-md-3">
+						<div class="our-works-img">
+							<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign-last">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+					</div>
+					<div class="col-md-3">
+						<div class="our-works-img">
+							<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign-last">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+					</div>
+					<div class="col-md-3">
+						<div class="our-works-img">
+							<img src="image/foto/Our-works.png" type="button" data-toggle="modal" data-target="#myModalimg">
+						</div>
+						<p class="our-works-sign-last">Сайт для сети<br>АГЗС “EVROGAZ”</p>
+					</div>
+				</div>
+			</div>	
+	</div>		
+	<div class="reviews">
+		<div class="container">
+			<p class="title">Нами довольны</p>
+			<div class="reviews-items">
+				<div class="single-slider">
+				 	<div>
+						<div class="row">
+							<div class="col-md-2">
+									<div class="reviews-foto">	
+									</div>
+							</div>
+							<div class="col-md-10">
+									<p class="reviews-name">Владимир Обама</p>
+									<p class="reviews-text">
+										Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития. Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития.
+									</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="row">
+							<div class="col-md-2">
+									<div class="reviews-foto">	
+									</div>
+							</div>
+							<div class="col-md-10">
+									<p class="reviews-name">Владимир Обама</p>
+									<p class="reviews-text">
+										1 Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития. Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития.
+									</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="row">
+							<div class="col-md-2">
+									<div class="reviews-foto">	
+									</div>
+							</div>
+							<div class="col-md-10">
+									<p class="reviews-name">Владимир Обама</p>
+									<p class="reviews-text">
+										2 Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития. Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития.
+									</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="row">
+							<div class="col-md-2">
+									<div class="reviews-foto">	
+									</div>
+							</div>
+							<div class="col-md-10">
+									<p class="reviews-name">Владимир Обама</p>
+									<p class="reviews-text">
+										3 Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития. Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития.
+									</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="row">
+							<div class="col-md-2">
+									<div class="reviews-foto">	
+									</div>
+							</div>
+							<div class="col-md-10">
+									<p class="reviews-name">Владимир Обама</p>
+									<p class="reviews-text">
+										4 Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития. Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития.
+									</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="row">
+							<div class="col-md-2">
+									<div class="reviews-foto">	
+									</div>
+							</div>
+							<div class="col-md-10">
+									<p class="reviews-name">Владимир Обама</p>
+									<p class="reviews-text">
+										5 Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития. Задача организации, в особенности же дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития.
+									</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews-slider">
+				<div class="review-s-fon" >
+					<div class="reviews-slider-img">
+						<a href="#" onclick="event.preventDefault()" class="review-s" data-slic="0"><img src="image/foto/slider5-1.png"></a>
+					</div>
+				</div>
+				<div class="review-s-fon">
+					<div class="reviews-slider-img">
+						<a href="#" onclick="event.preventDefault()" class="review-s" data-slic="1"><img src="image/foto/slider5-2.png"></a>
+					</div>
+				</div>
+				<div class="review-s-fon">
+					<div class="reviews-slider-img">
+						<a href="#" onclick="event.preventDefault()" class="review-s" data-slic="2"><img src="image/foto/slider5-5.png"></a>
+					</div>
+				</div>
+				<div class="review-s-fon">
+				<div class="reviews-slider-img">
+				<a href="#" onclick="event.preventDefault()" class="review-s" data-slic="3"><img src="image/foto/slider5-3.png"></a>
+				</div>
+				</div>
+				<div class="review-s-fon">
+				<a href="#" onclick="event.preventDefault()" class="review-s" data-slic="4"><img src="image/foto/slider5-4.png"></a>
+				</div>
+				<div class="review-s-fon">
+				<div class="reviews-slider-img">
+				<a href="#" onclick="event.preventDefault()" class="review-s" data-slic="5"><img src="image/foto/slider5-5.png"></a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer" id="footer">	
+			<div class="footer-cards">
+				<div id="map" class="cards"></div>
+			</div> 
+			<div class="footer-feedback">
+				<div class="footer-feedback-footer">
+					<p class="footer-feedback-phone">
+						<a href="tel:+1234567890" class="footer-feedback-phone-link">+ 7 (777) 007 09 71</a><br><a href="tel:+1234567890" class="footer-feedback-phone-link">+ 7 (727) 354 43 77</a>
+					</p>
+					<div class="footer-feedback-call">
+						<button type="button" class="feedback-link-call" data-toggle="modal" data-target="#myModal">Заказать звонок</button>
+					</div>
+				</div>
+				<div class="footer-address">
+					<p class="address"><a href="mailto:Hello@satty.kz" class="address-link">Hello@satty.kz</a><br>г. Алматы, ул. Бродского, 37
+					</p>
+					<div class="section">
+						<a href="https://vk.com/" class="footer-feedback-phone-link" target="_blank">
+							<div class="footer-section"></div>
+						</a>
+						<a href="https://vk.com/" class="footer-feedback-phone-link" target="_blank">
+							<div class="footer-section"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<div class="col-md-6">
+						<p class="footer-copyright-text">Copyright © Piligrim Studio 2015</p>
+					</div>
+					<div class="col-md-6">
+						<p class="footer-copyright-text-link">Разработано и поддерживается: <a href="url" class="footer-feedback-phone-link" target="_blank">timemedia.kz</a></p>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="scroll">
+		<a href="#" class="scroll-up">Наверх</a>
+	</div>
+<script src="javascript/script.js"></script>
+</body>
+
+
+</html>
+
+		
